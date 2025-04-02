@@ -1,16 +1,18 @@
 1. Camera Calibration
 
+The number of applied images = 21
+
 Focal Length
-fx = 2002.94588, fy = 2032.98290
+fx = 1999.54, fy = 2028.58
 
 Principal Point
-cx = 980.283948, cy = 558.495031
+cx = 980.50, cy = 557.31
 
-Distortion Coefficients:
-[ 2.56775214e-01,  6.60458653e-02, -1.15669919e-03,  3.28791806e-03,  -6.49495367e+00]
+Distortion Coefficients(k1, k2, p1, p2, k3, ...):
+[0.2575275921259914, 0.038343559866068064, -0.0011735632043227467, 0.003449879732682275, -6.324789728470607]
 
 RMS error
-0.8027448506044801
+0.8054745187081761
 
 2. Lens Distortion Correction
 따로 첨부
